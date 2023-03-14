@@ -1,16 +1,16 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.container1, .container2{
+.container1, .container2, .container6 {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
 }
 
-.container2{
+.container2, .container5{
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -22,6 +22,23 @@
     padding-bottom: 70px;
 }
 
+.container4{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7E5;
+}
+
+.container5{
+    display: flex;
+    justify-content: center;
+}
+
+.container6{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#E5E7E5;
+}
+
 .header, .content {
     display: flex;
     justify-content: space-between;
@@ -29,16 +46,6 @@
     width: 1000px;
     padding: 16px;
 
-}
-
-.info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 700px;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
 }
 
 ul {
@@ -67,7 +74,7 @@ li {
     flex-direction: column;
 }
 
-img {
+.ac {
     border-radius: 8px;
     border: 2px solid #F9FAF8;
 }
@@ -101,11 +108,27 @@ img {
     font-weight: bolder;
     color: #1F2937;
     margin-bottom: 30px;
+    justify-content: center;
+}
+
+.info, .quotebox {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    flex-direction: column;
 }
 
 .infoimage {
     display: flex;
-    width: 300px;
+    justify-content: space-between;
+}
+
+.infoimage1, .infoimage2,
+.infoimage3, .infoimage4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
 }
 
 .box {
@@ -115,10 +138,58 @@ img {
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 12px;
-    margin: 0;
 }
 
 .subtext {
+    margin-top: 8px;
     text-align: center;
+    color: gray
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 70px;
+}
+
+.author {
+    padding-top: 16px;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 70px;
+}
+
+.main {
+    width: 700px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 85px;
+}
+
+.letter1 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.letter2 {
+    font-size: 18px;
+    color: #E5E7E5;
+    border-radius: 8px;
+}
+
+.click {
+    background-color: #3882F6 ;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 8px;
 }
